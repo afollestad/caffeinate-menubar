@@ -1,0 +1,23 @@
+{
+  "fill": {
+    "automatic-gradient": "display-p3:0.17000,0.49000,0.46000,1.00000",
+    "orientation": { "start": { "x": 0.5, "y": 0 }, "stop": { "x": 0.5, "y": 0.7 } }
+  },
+  "groups": [{
+    "blur-material": null,
+    "hidden": false,
+    "layers": [{
+      "glass": false,
+      "image-name-specializations": [
+        { "value": "coffee-light.png" },
+        { "appearance": "dark", "value": "coffee-dark.png" }
+      ],
+      "name": "Coffee and steam",
+      "position": { "scale": 0.9, "translation-in-points": [0, 0] }
+    }],
+    "shadow": { "kind": "neutral", "opacity": 0 },
+    "specular": false,
+    "translucency": { "enabled": false, "value": 0.1 }
+  }],
+  "supported-platforms": { "squares": ["macOS"] }
+}

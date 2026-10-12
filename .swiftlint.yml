@@ -1,0 +1,12 @@
+included:
+  - Sources
+  - Tests
+  - Package.swift
+line_length:
+  warning: 150
+  error: 200
+disabled_rules:
+  - trailing_whitespace
+  - opening_brace
+opt_in_rules:
+  - force_unwrapping
