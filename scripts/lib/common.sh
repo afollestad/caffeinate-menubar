@@ -7,7 +7,7 @@ cd "$repo_root"
 
 app_name=Caffeinate
 
-# The assembled bundle for a build configuration (`debug` or `release`).
+# The assembled bundle for a build configuration (`debug` or `release`). Release builds put its dSYM at "<bundle>.dSYM".
 app_path() {
   echo "$repo_root/.build/app/$1/$app_name.app"
 }

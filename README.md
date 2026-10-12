@@ -31,9 +31,13 @@ This is a SwiftPM package; `scripts/build.sh` assembles the `.app` bundle and co
 
 ## Install
 
+Download `Caffeinate.app.zip` from the latest [GitHub Release](https://github.com/afollestad/caffeinate-menubar/releases/latest), unzip it, and move `Caffeinate.app` to `/Applications`. To build it yourself:
+
 ```sh
 ./scripts/build.sh --release
 cp -R .build/app/release/Caffeinate.app /Applications/
 ```
 
 Turn on **Launch at login** from the installed copy so the login item points at `/Applications`.
+
+See `RELEASING.md` for how releases are built and published.

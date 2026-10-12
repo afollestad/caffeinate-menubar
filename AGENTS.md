@@ -16,6 +16,7 @@ Read the nearest `AGENTS.md` before editing; `find . -name AGENTS.md -not -path 
 - Build: `./scripts/build.sh [--release]`. Run: `./scripts/run.sh`. Test: `./scripts/test.sh [filter]`.
 - Run ordered workflows serially, never in parallel: build-then-run, build-then-test.
 - Launch through `./scripts/run.sh`, not `swift run` or an Xcode scheme; only the assembled bundle has the assets and `LSUIElement`.
+- CI and releases run from `.github/workflows/`; follow `RELEASING.md` to release and `scripts/ci/AGENTS.md` when editing CI scripts.
 
 ## Lint
 
